@@ -15,3 +15,7 @@ UPDATE wp_posts SET guid = replace(guid, 'http://www.oldurl','http://www.newurl'
 UPDATE wp_posts SET post_content = replace(post_content, 'http://www.oldurl', 'http://www.newurl');
 
 UPDATE wp_postmeta SET meta_value = replace(meta_value,'http://www.oldurl','http://www.newurl');
+
+# Session PHP
+
+session_cache_expire(525600);
