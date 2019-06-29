@@ -1,3 +1,6 @@
+
+Project created for the company CINQ Technologies
+
 ## Docker Compose
 
 Configured with php and mysql
